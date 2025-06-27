@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_final.vhd" \
+"../../../../Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_init.vhd" \
+"../../../../Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_plaintext.vhd" \
+"../../../../Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_process_ad.vhd" \
+"../../../../Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_permutation.vhd" \
+"../../../../Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_top.vhd" \
+"../../../../Thiet_ke_IP_ma_hoa_ASCON.srcs/sim_1/new/tb_ascon_top.vhd" \
+
+# Do not sort compile order
+nosort

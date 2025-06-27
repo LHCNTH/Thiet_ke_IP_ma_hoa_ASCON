@@ -1,0 +1,217 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xABEFD9E6E7F6B479",
+      "device": "xc7a35ticsg324-1L",
+      "gen_directory": "../../../../Thiet_ke_IP_ma_hoa_ASCON.gen/sources_1/bd/Create_IP_ASCON",
+      "name": "Create_IP_ASCON",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.1"
+    },
+    "design_tree": {
+      "vio_0": "",
+      "vio_1": "",
+      "vio_2": "",
+      "ascon_top_0": "",
+      "clk_wiz_0": ""
+    },
+    "ports": {
+      "sys_clock": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "PHASE": {
+            "value": "0.0"
+          }
+        }
+      }
+    },
+    "components": {
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "Create_IP_ASCON_vio_0_0",
+        "xci_path": "ip\\Create_IP_ASCON_vio_0_0\\Create_IP_ASCON_vio_0_0.xci",
+        "inst_hier_path": "vio_0",
+        "parameters": {
+          "C_NUM_PROBE_IN": {
+            "value": "0"
+          }
+        }
+      },
+      "vio_1": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "Create_IP_ASCON_vio_1_0",
+        "xci_path": "ip\\Create_IP_ASCON_vio_1_0\\Create_IP_ASCON_vio_1_0.xci",
+        "inst_hier_path": "vio_1",
+        "parameters": {
+          "C_NUM_PROBE_IN": {
+            "value": "0"
+          },
+          "C_NUM_PROBE_OUT": {
+            "value": "5"
+          },
+          "C_PROBE_OUT1_INIT_VAL": {
+            "value": "0x0"
+          },
+          "C_PROBE_OUT1_WIDTH": {
+            "value": "128"
+          },
+          "C_PROBE_OUT2_WIDTH": {
+            "value": "128"
+          },
+          "C_PROBE_OUT3_WIDTH": {
+            "value": "128"
+          },
+          "C_PROBE_OUT4_WIDTH": {
+            "value": "128"
+          }
+        }
+      },
+      "vio_2": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "Create_IP_ASCON_vio_2_0",
+        "xci_path": "ip\\Create_IP_ASCON_vio_2_0\\Create_IP_ASCON_vio_2_0.xci",
+        "inst_hier_path": "vio_2",
+        "parameters": {
+          "C_EN_PROBE_IN_ACTIVITY": {
+            "value": "1"
+          },
+          "C_NUM_PROBE_IN": {
+            "value": "3"
+          },
+          "C_NUM_PROBE_OUT": {
+            "value": "0"
+          }
+        }
+      },
+      "ascon_top_0": {
+        "vlnv": "xilinx.com:user:ascon_top:1.0",
+        "xci_name": "Create_IP_ASCON_ascon_top_0_0",
+        "xci_path": "ip\\Create_IP_ASCON_ascon_top_0_0\\Create_IP_ASCON_ascon_top_0_0.xci",
+        "inst_hier_path": "ascon_top_0"
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "Create_IP_ASCON_clk_wiz_0_0",
+        "xci_path": "ip\\Create_IP_ASCON_clk_wiz_0_0\\Create_IP_ASCON_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "parameters": {
+          "CLKOUT2_JITTER": {
+            "value": "130.958"
+          },
+          "CLKOUT2_PHASE_ERROR": {
+            "value": "98.575"
+          },
+          "CLKOUT2_USED": {
+            "value": "false"
+          },
+          "CLK_IN1_BOARD_INTERFACE": {
+            "value": "sys_clock"
+          },
+          "CLK_IN2_BOARD_INTERFACE": {
+            "value": "Custom"
+          },
+          "MMCM_CLKOUT1_DIVIDE": {
+            "value": "1"
+          },
+          "NUM_OUT_CLKS": {
+            "value": "1"
+          },
+          "RESET_BOARD_INTERFACE": {
+            "value": "reset"
+          },
+          "RESET_PORT": {
+            "value": "resetn"
+          },
+          "RESET_TYPE": {
+            "value": "ACTIVE_LOW"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      }
+    },
+    "nets": {
+      "ascon_top_0_ciphertext": {
+        "ports": [
+          "ascon_top_0/ciphertext",
+          "vio_2/probe_in1"
+        ]
+      },
+      "ascon_top_0_done": {
+        "ports": [
+          "ascon_top_0/done",
+          "vio_2/probe_in0"
+        ]
+      },
+      "ascon_top_0_tag": {
+        "ports": [
+          "ascon_top_0/tag",
+          "vio_2/probe_in2"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "ascon_top_0/clk",
+          "vio_0/clk",
+          "vio_1/clk",
+          "vio_2/clk"
+        ]
+      },
+      "sys_clock_1": {
+        "ports": [
+          "sys_clock",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "vio_0_probe_out0": {
+        "ports": [
+          "vio_0/probe_out0",
+          "ascon_top_0/rst"
+        ]
+      },
+      "vio_1_probe_out0": {
+        "ports": [
+          "vio_1/probe_out0",
+          "ascon_top_0/start"
+        ]
+      },
+      "vio_1_probe_out1": {
+        "ports": [
+          "vio_1/probe_out1",
+          "ascon_top_0/key"
+        ]
+      },
+      "vio_1_probe_out2": {
+        "ports": [
+          "vio_1/probe_out2",
+          "ascon_top_0/nonce"
+        ]
+      },
+      "vio_1_probe_out3": {
+        "ports": [
+          "vio_1/probe_out3",
+          "ascon_top_0/plaintext"
+        ]
+      },
+      "vio_1_probe_out4": {
+        "ports": [
+          "vio_1/probe_out4",
+          "ascon_top_0/associated_data"
+        ]
+      }
+    }
+  }
+}
