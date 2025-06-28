@@ -1,14 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_final.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'ascon128_final'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_init.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'ascon128_init'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_plaintext.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'ascon128_plaintext'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_process_ad.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'ascon128_process_ad'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_permutation.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'ascon_permutation'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_top.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'ascon_top'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sim_1/new/tb_ascon_top.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_ascon_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sim_1/new/tb_ascon_decrypt_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_ascon_decrypt_top'

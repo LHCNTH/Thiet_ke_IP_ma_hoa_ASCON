@@ -15,6 +15,7 @@ architecture sim of tb_ascon_decrypt_top is
             start       : in  std_logic;
             key         : in  std_logic_vector(127 downto 0);
             nonce       : in  std_logic_vector(127 downto 0);
+            associated_data : in std_logic_vector(127 downto 0);
             ciphertext  : in  std_logic_vector(127 downto 0);
             received_tag: in  std_logic_vector(127 downto 0);
             done        : out std_logic;
@@ -26,6 +27,7 @@ architecture sim of tb_ascon_decrypt_top is
     signal clk, rst, start, done : std_logic := '0';
     signal key, nonce : std_logic_vector(127 downto 0);
     signal ciphertext, received_tag : std_logic_vector(127 downto 0);
+    signal associated_data : std_logic_vector(127 downto 0);
     signal plaintext_out : std_logic_vector(127 downto 0);
     signal valid : std_logic;
 
@@ -47,6 +49,7 @@ begin
             start => start,
             key => key,
             nonce => nonce,
+            associated_data => associated_data,
             ciphertext => ciphertext,
             received_tag => received_tag,
             done => done,
@@ -64,11 +67,10 @@ begin
         -- TEST CASE #1: GI?I M?
         key       <= x"000102030405060708090A0B0C0D0E0F";
         nonce     <= x"00000000000000000000000000000000";
-
-        -- C?n s?a l?i giá tr? này b?ng ðúng ciphertext & tag thu ðý?c t? tb_ascon_top
         ciphertext   <= x"112331475163718F91A3B1C7D1E3F100"; -- Thay th? ðúng
         received_tag <= x"000102030405060708090A0B0C0D0E0F"; -- Thay th? ðúng
-
+        associated_data <= x"00000000000000000000000000000000";
+        
         start <= '1'; wait for 10 ns; start <= '0';
         wait until done = '1';
 
