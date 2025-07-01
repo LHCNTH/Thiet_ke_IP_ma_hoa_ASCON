@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sim_1/new/tb_ascon_decrypt_top.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_ascon_decrypt_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_decrypt_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ascon_decrypt_top'

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Jul  2 01:00:06 2025
+# Process ID: 24152
+# Current directory: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.runs/synth_1
+# Command line: vivado.exe -log ascon_decrypt_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ascon_decrypt_top.tcl
+# Log file: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.runs/synth_1/ascon_decrypt_top.vds
+# Journal file: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.runs/synth_1\vivado.jou
+# Running On: LLHTDQC-ASUS, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 8192 MB
+#-----------------------------------------------------------
+source ascon_decrypt_top.tcl -notrace

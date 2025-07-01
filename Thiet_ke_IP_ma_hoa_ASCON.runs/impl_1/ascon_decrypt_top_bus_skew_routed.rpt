@@ -1,0 +1,15 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Wed Jul  2 01:01:17 2025
+| Host         : LLHTDQC-ASUS running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file ascon_decrypt_top_bus_skew_routed.rpt -pb ascon_decrypt_top_bus_skew_routed.pb -rpx ascon_decrypt_top_bus_skew_routed.rpx
+| Design       : ascon_decrypt_top
+| Device       : 7a35ti-csg324
+| Speed File   : -1L  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

@@ -2,13 +2,13 @@
 2020.2
 Apr 18 2022
 16:05:34
-D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sim_1/new/tb_ascon_decrypt_top.vhd,1751080139,vhdl,,,,tb_ascon_decrypt_top,,,,,,,,
-D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sim_1/new/tb_ascon_top.vhd,1751043231,vhdl,,,,tb_ascon_top,,,,,,,,
+D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sim_1/new/tb_ascon_decrypt_top.vhd,1751392139,vhdl,,,,tb_ascon_decrypt_top,,,,,,,,
+D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sim_1/new/tb_ascon_top.vhd,1751388985,vhdl,,,,tb_ascon_top,,,,,,,,
 D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_decrypt.vhd,1751036629,vhdl,,,,ascon128_decrypt,,,,,,,,
 D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_final.vhd,1750763631,vhdl,,,,ascon128_final,,,,,,,,
 D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_init.vhd,1751035613,vhdl,,,,ascon128_init,,,,,,,,
 D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_plaintext.vhd,1750763585,vhdl,,,,ascon128_plaintext,,,,,,,,
 D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon128_process_ad.vhd,1751039043,vhdl,,,,ascon128_process_ad,,,,,,,,
-D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_decrypt_top.vhd,1751079402,vhdl,,,,ascon_decrypt_top,,,,,,,,
+D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_decrypt_top.vhd,1751392552,vhdl,,,,ascon_decrypt_top,,,,,,,,
 D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_permutation.vhd,1750763757,vhdl,,,,ascon_permutation,,,,,,,,
-D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_top.vhd,1751039290,vhdl,,,,ascon_top,,,,,,,,
+D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_top.vhd,1751389628,vhdl,,,,ascon_top,,,,,,,,

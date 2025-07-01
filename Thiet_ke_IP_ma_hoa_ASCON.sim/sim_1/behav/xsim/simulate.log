@@ -1,7 +1,15 @@
 Time resolution is 1 ps
-Note: TEST #1
+Note: ASCON Decryption Done!
+Time: 545 ns  Iteration: 1  Process: /tb_ascon_decrypt_top/dut/line__304  File: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_decrypt_top.vhd
+Note: Plaintext: 112233445566778899AABBCCDDEEFF0E
+Time: 545 ns  Iteration: 1  Process: /tb_ascon_decrypt_top/dut/line__304  File: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_decrypt_top.vhd
+Note: Tag Match : '0'
+Time: 545 ns  Iteration: 1  Process: /tb_ascon_decrypt_top/dut/line__304  File: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_decrypt_top.vhd
+Note: ASCON Decryption Done!
 Time: 545 ns  Iteration: 2  Process: /tb_ascon_decrypt_top/stim_proc  File: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sim_1/new/tb_ascon_decrypt_top.vhd
-Note: Plaintext_out: 112233445566778899AABBCCDDEEFF01
-Time: 545 ns  Iteration: 2  Process: /tb_ascon_decrypt_top/stim_proc  File: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sim_1/new/tb_ascon_decrypt_top.vhd
-Note: Successful '1'
-Time: 545 ns  Iteration: 2  Process: /tb_ascon_decrypt_top/stim_proc  File: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sim_1/new/tb_ascon_decrypt_top.vhd
+Note: ASCON Decryption Done!
+Time: 675 ns  Iteration: 1  Process: /tb_ascon_decrypt_top/dut/line__304  File: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_decrypt_top.vhd
+Note: Plaintext: 112233445566778899AABBCCDDEEFF0E
+Time: 675 ns  Iteration: 1  Process: /tb_ascon_decrypt_top/dut/line__304  File: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_decrypt_top.vhd
+Note: Tag Match : '1'
+Time: 675 ns  Iteration: 1  Process: /tb_ascon_decrypt_top/dut/line__304  File: D:/Vivado/Thiet_ke_IP_ma_hoa_ASCON/Thiet_ke_IP_ma_hoa_ASCON.srcs/sources_1/new/ascon_decrypt_top.vhd
